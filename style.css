@@ -60,14 +60,10 @@ a {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 800;
     letter-spacing: -0.5px;
-}
-
-.logo span,
-.footer-logo span {
-    color: #b8753c;
+    color: #29251f;
 }
 
 .nav {
@@ -157,6 +153,7 @@ a {
 
     background-size: cover;
     background-position: center;
+
     color: white;
 }
 
@@ -553,10 +550,6 @@ a {
     margin: 0;
 }
 
-.contact-detail small {
-    color: #8a8177;
-}
-
 
 /* =========================
    FORM
@@ -635,7 +628,7 @@ textarea {
 }
 
 .footer-logo {
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 800;
     margin-bottom: 8px;
 }

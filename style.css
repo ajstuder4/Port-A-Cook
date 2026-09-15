@@ -60,10 +60,14 @@ a {
 }
 
 .logo {
-    font-size: 27px;
-    font-weight: 800;
-    letter-spacing: -0.5px;
-    color: #29251f;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 210px;
+    height: auto;
+    display: block;
 }
 
 .nav {
@@ -628,11 +632,14 @@ textarea {
 }
 
 .footer-logo {
-    font-size: 27px;
-    font-weight: 800;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
+.footer-logo img {
+    width: 210px;
+    height: auto;
+    display: block;
+}
 .footer-content p {
     color: #aaa196;
 }
@@ -767,5 +774,11 @@ textarea {
     .footer-links {
         flex-wrap: wrap;
     }
+    .logo img {
+        width: 165px;
+    }
 
+    .footer-logo img {
+        width: 180px;
+    }
 }

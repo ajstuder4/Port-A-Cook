@@ -774,21 +774,343 @@
                     </div>
 
 
-                    <div class="form-group">
+          ```html
+<!-- MAIN MEAL -->
+<div class="form-group">
 
-                        <label for="message">
-                            Tell Us About Your Event
-                        </label>
+    <label for="main-meal">
+        Main Meal
+    </label>
 
-                       <textarea
-    id="message"
-    name="message"
-    rows="6"
-    placeholder="Please select a meat option and three sides. Also let us know what drinks you would like, along with any other details about your event."
-    required
-></textarea>
+    <select
+        id="main-meal"
+        name="main_meal"
+        required
+    >
+        <option value="">
+            Select a main meal
+        </option>
 
-                    </div>
+        <option value="Pulled Pork">
+            Pulled Pork
+        </option>
+
+        <option value="Pork Loin">
+            Pork Loin
+        </option>
+
+        <option value="Brisket">
+            Brisket
+        </option>
+
+        <option value="Half Chicken">
+            Half Chicken
+        </option>
+
+        <option value="Hawaiian Chicken">
+            Hawaiian Chicken
+        </option>
+
+        <option value="BBQ Chicken Dinner">
+            BBQ Chicken Dinner
+        </option>
+
+        <option value="Steaks">
+            Steaks
+        </option>
+
+        <option value="Cheeseburgers">
+            Cheeseburgers
+        </option>
+
+        <option value="Lasagna">
+            Lasagna
+        </option>
+
+        <option value="BBQ Ribs">
+            BBQ Ribs
+        </option>
+
+    </select>
+
+</div>
+
+
+<!-- SIDE #1 -->
+<div class="form-group">
+
+    <label for="side-1">
+        Side #1
+    </label>
+
+    <select
+        id="side-1"
+        name="side_1"
+        required
+    >
+        <option value="">
+            Select Side #1
+        </option>
+
+        <option value="Green Beans">
+            Green Beans
+        </option>
+
+        <option value="Mac and Cheese">
+            Mac and Cheese
+        </option>
+
+        <option value="Scalloped Potatoes">
+            Scalloped Potatoes
+        </option>
+
+        <option value="Baked Potatoes">
+            Baked Potatoes
+        </option>
+
+        <option value="Garden Salad">
+            Garden Salad
+        </option>
+
+        <option value="Coleslaw">
+            Coleslaw
+        </option>
+
+        <option value="Pasta Salad">
+            Pasta Salad
+        </option>
+
+        <option value="Glazed Carrots">
+            Glazed Carrots
+        </option>
+
+    </select>
+
+</div>
+
+
+<!-- SIDE #2 -->
+<div class="form-group">
+
+    <label for="side-2">
+        Side #2
+    </label>
+
+    <select
+        id="side-2"
+        name="side_2"
+        required
+    >
+        <option value="">
+            Select Side #2
+        </option>
+
+        <option value="Green Beans">
+            Green Beans
+        </option>
+
+        <option value="Mac and Cheese">
+            Mac and Cheese
+        </option>
+
+        <option value="Scalloped Potatoes">
+            Scalloped Potatoes
+        </option>
+
+        <option value="Baked Potatoes">
+            Baked Potatoes
+        </option>
+
+        <option value="Garden Salad">
+            Garden Salad
+        </option>
+
+        <option value="Coleslaw">
+            Coleslaw
+        </option>
+
+        <option value="Pasta Salad">
+            Pasta Salad
+        </option>
+
+        <option value="Glazed Carrots">
+            Glazed Carrots
+        </option>
+
+    </select>
+
+</div>
+
+
+<!-- SIDE #3 -->
+<div class="form-group">
+
+    <label for="side-3">
+        Side #3
+    </label>
+
+    <select
+        id="side-3"
+        name="side_3"
+        required
+    >
+        <option value="">
+            Select Side #3
+        </option>
+
+        <option value="Green Beans">
+            Green Beans
+        </option>
+
+        <option value="Mac and Cheese">
+            Mac and Cheese
+        </option>
+
+        <option value="Scalloped Potatoes">
+            Scalloped Potatoes
+        </option>
+
+        <option value="Baked Potatoes">
+            Baked Potatoes
+        </option>
+
+        <option value="Garden Salad">
+            Garden Salad
+        </option>
+
+        <option value="Coleslaw">
+            Coleslaw
+        </option>
+
+        <option value="Pasta Salad">
+            Pasta Salad
+        </option>
+
+        <option value="Glazed Carrots">
+            Glazed Carrots
+        </option>
+
+    </select>
+
+</div>
+
+
+<!-- DRINKS -->
+<div class="form-group">
+
+    <label for="drinks">
+        Drinks
+        <span style="font-weight: normal;">
+            (Optional)
+        </span>
+    </label>
+
+    <select
+        id="drinks"
+        name="drinks"
+    >
+        <option value="">
+            Select drinks
+        </option>
+
+        <option value="Iced Tea">
+            Iced Tea
+        </option>
+
+        <option value="Lemonade">
+            Lemonade
+        </option>
+
+        <option value="Fruit Punch">
+            Fruit Punch
+        </option>
+
+        <option value="Water">
+            Water
+        </option>
+
+        <option value="Soda">
+            Soda
+        </option>
+
+    </select>
+
+</div>
+
+
+<!-- DESSERTS -->
+<div class="form-group">
+
+    <label for="desserts">
+        Desserts
+        <span style="font-weight: normal;">
+            (Optional)
+        </span>
+    </label>
+
+    <select
+        id="desserts"
+        name="desserts"
+    >
+        <option value="">
+            Select a dessert
+        </option>
+
+        <option value="Cookies">
+            Cookies
+        </option>
+
+        <option value="Brownies">
+            Brownies
+        </option>
+
+        <option value="Texas Sheet Cake">
+            Texas Sheet Cake
+        </option>
+
+    </select>
+
+</div>
+
+
+<!-- LOCATION -->
+<div class="form-group">
+
+    <label for="location">
+        Event Location
+    </label>
+
+    <input
+        type="text"
+        id="location"
+        name="event_location"
+        placeholder="City, venue, or address"
+        required
+    >
+
+</div>
+
+
+<!-- ADDITIONAL DETAILS -->
+<div class="form-group">
+
+    <label for="additional-details">
+        Additional Details
+        <span style="font-weight: normal;">
+            (Optional)
+        </span>
+    </label>
+
+    <textarea
+        id="additional-details"
+        name="additional_details"
+        rows="4"
+        placeholder="Tell us anything else we should know about your event, such as setup needs, special requests, or other details."
+    ></textarea>
+
+</div>
+```
+
 
 
                     <button
